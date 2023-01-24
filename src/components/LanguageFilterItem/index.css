@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-container {
+  margin-right: 20px;
+  color: #0f172a;
+}
+
+.item-button {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.active-item {
+  border: 1px solid #0284c7;
+  padding: 10px;
+  border-radius: 20px;
+}

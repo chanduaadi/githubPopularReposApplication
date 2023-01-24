@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.page-heading {
+  color: #0f172a;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: 'Lobster';
+  margin-bottom: 30px;
+}
+.filter-items-container {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.card-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
