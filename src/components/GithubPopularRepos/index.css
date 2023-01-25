@@ -23,3 +23,19 @@
   flex-wrap: wrap;
   list-style-type: none;
 }
+.products-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-prime-image {
+  width: 60%;
+  height: 60%;
+}
+.failure-text {
+  color: #0f172a;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}

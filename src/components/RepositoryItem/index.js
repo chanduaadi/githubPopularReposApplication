@@ -6,7 +6,7 @@ const RepositoryItem = props => {
   const {name, issuesCount, forksCount, starsCount, avatarUrl} = eachItems
   return (
     <li className="item-container">
-      <img className="card-img" src={avatarUrl} alt={name} />
+      <img className="card-img" src={avatarUrl} alt="name" />
       <h1 className="card-name">{name}</h1>
       <div className="info-container">
         <img
@@ -20,7 +20,7 @@ const RepositoryItem = props => {
         <img
           className="star-img"
           src="https://assets.ccbp.in/frontend/react-js/forks-count-img.png"
-          alt="stars"
+          alt="forks"
         />
         <p className="info-text">{forksCount}</p>
       </div>
@@ -28,7 +28,7 @@ const RepositoryItem = props => {
         <img
           className="star-img"
           src="https://assets.ccbp.in/frontend/react-js/issues-count-img.png"
-          alt="stars"
+          alt="open issues"
         />
         <p className="info-text">{issuesCount}</p>
       </div>
